@@ -6,8 +6,7 @@ IST = ZoneInfo("Asia/Kolkata")
 
 from dotenv import load_dotenv
 from twilio.rest import Client
-account_sid = ""
-auth_token = ""
+
 
 client = Client(account_sid, auth_token)
 
