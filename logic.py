@@ -4,9 +4,6 @@ from zoneinfo import ZoneInfo
 
 IST = ZoneInfo("Asia/Kolkata")
 
-BOT_TOKEN = ""
-CHAT_ID = ""
-
 from dotenv import load_dotenv
 from twilio.rest import Client
 account_sid = ""
